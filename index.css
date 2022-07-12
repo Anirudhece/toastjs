@@ -1,0 +1,12 @@
+.middle {
+    display: flex;
+    justify-content: center;
+}
+.pop{
+    border: 2px solid rgb(207, 85, 85);
+    background-color:  rgb(207, 85, 85);;
+    display: none;
+    /* transform: translateY(50%); */
+    
+}
+
