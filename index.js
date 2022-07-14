@@ -3,7 +3,8 @@ let pop=document.querySelector(".pop");
 btn.addEventListener("click",work);
 function work(){
     pop.style.display="block";
-    setInterval(()=>{
+    setTimeout((e)=>{
         pop.style.display="none";
+        e.stopPropagation();
     },3000);
-}
+} 
